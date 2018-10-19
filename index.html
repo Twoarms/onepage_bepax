@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Beaufays V, Debras M, Fauchoux J, Petrovski G">
     <title>Bepax</title>
+     <!-- Custom styles for this template -->
+     <link href="asset/css/modern-business.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -41,7 +44,7 @@
                             Association
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownAssociation">
-                            <a class="dropdown-item" href="#mission">Valeurs & Mission</a>
+                            <a class="dropdown-item" href="#mission" id="missionBtn">Mission et valeurs</a>
                             <a class="dropdown-item" href="#">Thèmes de travail</a>
                             <a class="dropdown-item" href="#">Activités</a>
                             <a class="dropdown-item" href="#">Contact</a>
@@ -74,7 +77,109 @@
         </div>
     </nav>
 
-    <main>
+    <!-- Jumbotron -->
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('assets/imgs/image_jumbotron_1.jpg')">
+                    <div class="carousel-caption ">
+                        <h1>
+                            <span class="jumbo_title">
+                            <span class="green">Pa</span><span class="orange">ix</span>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+      
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('assets/imgs/image_jumbotron_2.jpg')">
+                    <div class="carousel-caption">
+                        <h1 class="two_words">
+                            <span class="jumbo_title_two_words">
+                            <span class="green">Non-</span><span class="orange">violence</span>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+      
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('assets/imgs/image_jumbotron_3.jpg')">
+                    <div class="carousel-caption">
+                        <h1>
+                            <span class="jumbo_title">
+                            <span class="green">Récon</span><span class="orange">ciliation</span>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+      
+                <!-- Slide Four - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('assets/imgs/image_jumbotron_4.jpg')">
+                    <div class="carousel-caption">
+                        <h1 class="two_words">
+                            <span class="jumbo_title_two_words">
+                            <span class="green">Vivre-</span><span class="orange">Ensemble</span>
+                            </span>
+                        </h1>
+                     </div>
+                </div>
+      
+                <!-- Slide Five - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('assets/imgs/image_jumbotron_5.jpg')">
+                    <div class="carousel-caption">
+                        <h1>
+                            <span class="jumbo_title">
+                            <span class="green">So</span><span class="orange">ciété</span>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+      
+                <!-- Slide six - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('assets/imgs/image_jumbotron_6.jpg')">
+                    <div class="carousel-caption">
+                        <h1>
+                            <span class="jumbo_title">
+                            <span class="green">Mon</span><span class="orange">de</span>
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+      
+                <!-- Slide seven - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('assets/imgs/image_jumbotron_7.jpg')">
+                  <div class="carousel-caption">
+                    <h1>
+                      <span class="jumbo_title">
+                        <span class="green">Et </span><span class="orange">vous?</span>
+                      </span>
+                    </h1>
+                  </div>
+                </div>
+                
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </header>
+
+    <main class="container-fluid">
     <!-- News Cards -->
     <div class="row">
         <div class="card-global col-md-4">
@@ -104,13 +209,13 @@
                     <h5 class="card-title">Des fleurs aux « nègres »</h5>   
                     <p class="card-text">« On ne peut pas changer tout ce qu’on affronte, mais rien ne peut changer tant qu’on ne l’affronte pas. L’Histoire n’est pas le passé, c’est le Présent. </p>
                 </div>
-                <a href="#" class="btn btn-danger">Vers l'article</a>   
+                <a href="#" class="btn btn-danger" id="mission">Vers l'article</a>   
             </div>
         </div>
     </div>
 
     <!-- Textes -->
-    <div class="container d-flex justify-content-around " id="mission">
+    <div class="container d-flex justify-content-around ">
         <div class="row justify-content-around">
             <article class="col-12 col-md-5">
                 <h2>Mission</h2>
@@ -139,8 +244,19 @@
         </div>
     </div>
 
+</main>
+    <!-- Footer -->
+    <footer class=" bg-dark footerglobal">
+        <div class="container-fluid footerlink row">
+            <p class = "col-6 col-md-3"><a href="https://www.facebook.com/bepaxasbl" target="_blank"><i class="fab fa-facebook-square social"></i></a></p>
+            <p class = "adresse col-6 col-md-3"> BePax ASBL<br>Chaussée Saint-Pierre, 208 <br>1040 Bruxelles <br> Belgique</p>
+            <p class = "col-6 col-md-3"> <a href="http://www.federation-wallonie-bruxelles.be" target="_blank" ><img src="asset/imgs/wallonie-bxl.png" alt="logowalloniebxl"></a></p>
+            <a href="#" class="btn btn-danger col-6 col-md-2">Mobilisez vous!</a>
+            <p class="copyright col-12">Copyright &copy; BePax 2018</p>
+        </div>
+    </footer>
 
-    </main>
+    
 
     <!-- jquery, popper.js, bootstrap.js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
