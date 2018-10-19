@@ -67,3 +67,39 @@
     
     color: white;
 }
+
+/* footer */
+.footerglobal{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    
+    .footerlink{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        position: relative;
+               
+        .social{
+            color: #DE7C0C;
+            font-size: 350%;
+        }
+        .adresse{
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+        
+    }
+    .btn-danger{
+        width: 50%;
+    }
+    .copyright{
+        color: white;
+        text-align: center;
+    }
+
+}
