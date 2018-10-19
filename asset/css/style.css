@@ -1,0 +1,79 @@
+/* NEWS CARDS*/
+.card-global {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px 0px 40px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-global .card-body {
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  height: 75px;
+  top: 22px;
+  z-index: 1;
+}
+
+.card-global .card-body h5 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.card-global .card-body p {
+  opacity: 0;
+  background: #fff;
+  padding: 0 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.card-global:hover .card-img-top {
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
+}
+
+.card-global:hover .card-body {
+  -webkit-transform: translateY(-125px);
+          transform: translateY(-125px);
+}
+
+.card-global:hover .card-body p {
+  opacity: 1;
+}
+
+.btn {
+  overflow: hidden;
+  background: #DE7C0C;
+  border: 1px solid black;
+  position: relative;
+  z-index: 999;
+}
+
+.btn:hover {
+  background: #005E64;
+  border: 1px solid black;
+}
+
+.menu {
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.zone {
+  padding: 40px 20px;
+}
+
+.list-menu li {
+  list-style-type: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

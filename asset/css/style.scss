@@ -1,0 +1,69 @@
+/* NEWS CARDS*/
+
+.card-global{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 40px 0px 40px 0px;
+    position: relative;
+    overflow: hidden;
+    
+    .card-body{
+        position: relative;
+        transition: 0.3s;
+        background: #fff;
+        width:100%;
+        margin: 0;
+        padding: 0px;
+        height: 75px;
+        top:22px;
+        z-index: 1;
+        
+        h5{
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        p{
+            opacity: 0  ;
+            background: #fff;
+            padding: 0 10px;
+            transition: 0.4s ;
+        }
+    }
+}
+.card-global:hover{
+    .card-img-top{   
+        filter: opacity(50%);  
+    }
+    .card-body{
+        transform: translateY(-125px);  
+        p{
+            opacity: 1;
+        }
+    }   
+} 
+.btn{
+    overflow: hidden;
+    background: #DE7C0C;
+    border: 1px solid black;
+    position: relative;
+    z-index: 999;
+    &:hover{
+        background: #005E64;
+        border: 1px solid black;
+    }
+}
+
+.menu{
+    
+    padding: 40px 20px;
+    margin: 0;
+}
+.zone{
+    padding: 40px 20px;
+}
+.list-menu li{
+    list-style-type: none;
+    
+    color: white;
+}
