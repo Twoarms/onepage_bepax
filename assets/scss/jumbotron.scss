@@ -1,0 +1,49 @@
+$green:#005E64;
+$orange: #DE7C0C;
+$padding_title:0.6rem;
+$title_radius:10px;
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    h1{
+      font-size: 3rem;
+      margin:0.5rem;
+    }
+    .green{
+      color:$green;
+    }
+    .orange{
+      color: $orange;
+    }
+    .jumbo_title{
+      background-color: rgba(245, 245, 245, 0.801);
+      padding-left:$padding_title;
+      padding-right:$padding_title;
+      padding-bottom: $padding_title;
+      border-radius: $title_radius;
+    }
+  }
+  @media only screen and (max-width:576px){
+    .two_words{
+      background-color: rgba(245, 245, 245, 0.801);
+      border-radius: $title_radius;
+    }
+  }
+  @media only screen and (min-width:576px){
+    .jumbo_title_two_words{
+      background-color: rgba(245, 245, 245, 0.801);
+      padding-left:$padding_title;
+      padding-right:$padding_title;
+      padding-bottom: $padding_title;
+      border-radius: $title_radius;
+    }
+    .two_words{
+      background-color: rgba(0,0,0,0);
+    }
+  }

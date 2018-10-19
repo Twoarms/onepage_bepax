@@ -1,0 +1,36 @@
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .carousel-item h1 {
+    font-size: 3rem;
+    margin: 0.5rem; }
+  .carousel-item .green {
+    color: #005E64; }
+  .carousel-item .orange {
+    color: #DE7C0C; }
+  .carousel-item .jumbo_title {
+    background-color: rgba(245, 245, 245, 0.801);
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 10px; }
+
+@media only screen and (max-width: 576px) {
+  .two_words {
+    background-color: rgba(245, 245, 245, 0.801);
+    border-radius: 10px; } }
+
+@media only screen and (min-width: 576px) {
+  .jumbo_title_two_words {
+    background-color: rgba(245, 245, 245, 0.801);
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 10px; }
+  .two_words {
+    background-color: rgba(0, 0, 0, 0); } }
