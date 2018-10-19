@@ -1,0 +1,12 @@
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .carousel-item .green {
+    color: #005E64; }
+  .carousel-item .orange {
+    color: #DE7C0C; }
